@@ -6,7 +6,7 @@ Then make the changes below over SSH.
 
 ## WaveShare PoE Hat
 
-If booting from a USB drive instead of MMC while using this PoE hat you may need to add this line to /boot/firmware/config.txt:
+This is necessary when with this particular PoE hat. Others have not been tested.
 
 ```bash
 sudo vi /boot/firmware/config.txt
