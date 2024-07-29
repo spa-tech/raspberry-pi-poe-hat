@@ -1,6 +1,8 @@
 # Raspberry Pi 5 PoE Hat Troubleshooting
 
-If you want to boot a Pi 5 from a SATA SSD instead of MMC then you will need to make these changes. First use Pi Imager, install the preferred image on an SD FLASH, and boot from that MMC with AC adapter. 
+When powered by PoE, booting from a 2.5" SATA SSD via USB draws more watts than the Pi defaults allow. To get up and running, start with a fresh Pi, install the Pi OS on the SATA drive using Imager, then boot using an AC adapter.
+
+Then make the changes below over SSH. 
 
 ## WaveShare PoE Hat
 
