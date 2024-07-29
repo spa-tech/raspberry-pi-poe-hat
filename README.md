@@ -6,7 +6,7 @@ Then make the changes below over SSH.
 
 ## WaveShare PoE Hat
 
-This is necessary with this particular PoE hat and maybe others.
+The following is necessary with this particular PoE hat and maybe others.
 
 ```bash
 sudo vi /boot/firmware/config.txt
